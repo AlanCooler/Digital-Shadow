@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Digital_Shadow_Client_Avalonia.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Digital_Shadow_Client_Avalonia.Views.MainWindow"
+        Title="{Binding ApplicationName}">
+
+    <Design.DataContext>
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+	<Grid>
+		<Grid.ColumnDefinitions>
+		    <ColumnDefinition Width="50"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="Auto"/>
+			<ColumnDefinition Width="3*"/>
+		</Grid.ColumnDefinitions>
+		
+		<Border Background="Black" Grid.Column="0"/>
+		<Border Background="Green" Grid.Column="1"/>
+		<GridSplitter Width="5" Grid.Column="2" ShowsPreview="False" HorizontalAlignment="Center" 
+					  VerticalAlignment="Stretch"
+					  />
+		<Border Background="Aqua" Grid.Column="3"/>
+	</Grid>
+
+</Window>

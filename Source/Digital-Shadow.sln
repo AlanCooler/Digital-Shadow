@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digital-Shadow-Client-Avalonia", "Digital-Shadow-Client-Avalonia\Digital-Shadow-Client-Avalonia.csproj", "{068DF7FF-AEC1-4A03-B506-1813A1FBB499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{068DF7FF-AEC1-4A03-B506-1813A1FBB499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068DF7FF-AEC1-4A03-B506-1813A1FBB499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068DF7FF-AEC1-4A03-B506-1813A1FBB499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068DF7FF-AEC1-4A03-B506-1813A1FBB499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC59C401-613D-43B4-ABC2-42CAD9636116}
+	EndGlobalSection
+EndGlobal
